@@ -22,13 +22,14 @@ After cloning or downloading the repository, follow these steps to set up and ru
 
 3. Now you can hit the api on localhost:3000, or you can also change the port in the src/index.js file
 
+## Endpoints
 
-Authentication Endpoints
+### Authentication Endpoints
 
 1. POST /api/auth/signup: create a new user account.
 2. POST /api/auth/login: log in to an existing user account and receive an access token.
 
-Note Endpoints
+### Note Endpoints
 
 1. GET /api/notes: get a list of all notes for the authenticated user.
 2. GET /api/notes/ get a note by ID for the authenticated user.
